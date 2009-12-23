@@ -2,10 +2,13 @@ Source: apt-mirror
 Section: net
 Priority: optional
 Maintainer: Brandon Holtsclaw <brandon@imbrandon.com>
+Uploaders: Jeremy T. Bouse <jbouse@debian.org>
 Homepage: http://apt-mirror.sourceforge.net/
-Build-Depends: debhelper (>= 5), dpatch
+Build-Depends: debhelper (>= 7), dpatch
 Build-Depends-Indep: lsb-release
-Standards-Version: 3.7.2
+Standards-Version: 3.8.3
+Vcs-Git: git://git.debian.org/collab-maint/apt-mirror.git
+Vcs-Browser: http://git.debian.org/?p=collab-maint/apt-mirror.git
 
 Package: apt-mirror
 Architecture: all
