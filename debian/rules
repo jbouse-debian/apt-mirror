@@ -4,28 +4,26 @@
 version = $(shell uscan --dehs | sed -n 's/.*<upstream-version>\(.*\)<\/upstream-version>.*/\1/p')
 builddist = $(shell lsb_release -si)
 
+include /usr/share/dpatch/dpatch.make
+
 build: build-stamp
 
-build-stamp:
+build-stamp: patch
 	dh_testdir
 	touch build-stamp
 
-clean:
+clean: unpatch
 	dh_testdir
 	dh_testroot
 	rm -f build-stamp
-	rm -f debian/conffiles
-	dpatch deapply-all
-	rm -rf debian/patched
 	dh_clean
 
 install: build
 	dh_testdir
 	dh_testroot
-	dh_clean -k
+	dh_prep
 	dh_installdirs
 
-	dpatch apply-all
 	install -g root -o root -m 755 \
 		apt-mirror debian/apt-mirror/usr/bin/apt-mirror
 	install -g root -o root -m 644 \
