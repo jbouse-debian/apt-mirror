@@ -1,18 +1,19 @@
 Source: apt-mirror
 Section: net
 Priority: optional
-Maintainer: Brandon Holtsclaw <brandon@imbrandon.com>
+Maintainer: Brandon Holtsclaw <me@brandonholtsclaw.com>
 Uploaders: Jeremy T. Bouse <jbouse@debian.org>
+Dm-Upload-Allowed: yes
 Homepage: http://apt-mirror.sourceforge.net/
-Build-Depends: debhelper (>= 7), dpatch
+Build-Depends: cdbs, debhelper (>= 7)
 Build-Depends-Indep: lsb-release
-Standards-Version: 3.8.3
-Vcs-Git: git://git.debian.org/collab-maint/apt-mirror.git
+Standards-Version: 3.8.4
 Vcs-Browser: http://git.debian.org/?p=collab-maint/apt-mirror.git
+Vcs-Git: git://git.debian.org/collab-maint/apt-mirror.git
 
 Package: apt-mirror
 Architecture: all
-Depends: ${misc:Depends}, wget, perl, perl-modules, adduser
+Depends: wget, perl, perl-modules, adduser, ${misc:Depends}
 Description: APT sources mirroring tool
  A small and efficient tool that lets you mirror a part of or
  the whole Debian GNU/Linux distribution or any other apt sources.
