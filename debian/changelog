@@ -1,3 +1,19 @@
+apt-mirror (0.4.5-1.1) unstable; urgency=low
+
+  * Add git-buildpackage config file
+  * Initial run to clean existing lintian warnings
+  * Add dpatch list file
+  * add ${misc:Depends} to apt-mirror Depends
+  * Remove Homepage from description
+  * clean up rules to properly use dpatch
+  * Add content to have empty file included
+  * Fix opendir() bug in process_directory() (Closes: #484876) - thanks
+    to Harald Bongartz <debian08@hhjb.de>
+  * Fix typo in debian/control (Closes: #483100) - thanks to "Trent W.
+    Buck" <trentbuck@gmail.com>
+
+ -- Jeremy T. Bouse <jbouse@debian.org>  Sat, 17 Apr 2010 21:39:20 -0400
+
 apt-mirror (0.4.5-1) unstable; urgency=low
 
   * new upstream release
