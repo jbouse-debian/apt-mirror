@@ -32,4 +32,3 @@ deb-src http://ftp.us.debian.org/debian unstable main contrib non-free
 #deb-sparc http://ftp.us.debian.org/debian unstable main contrib non-free
 
 clean http://ftp.us.debian.org/debian
-
