@@ -7,5 +7,4 @@ DIST ?= $(shell lsb_release -si)
 
 override_dh_auto_install:
 	install -m 644 debian/$(DIST)-mirror.list debian/apt-mirror/etc/apt/mirror.list
-	install -d -m 0755 debian/apt-mirror/usr/share/man/man1
 	pod2man apt-mirror > debian/apt-mirror/usr/share/man/man1/apt-mirror.1

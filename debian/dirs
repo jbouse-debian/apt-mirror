@@ -1,4 +1,5 @@
 etc/apt
+usr/share/man/man1
 var/spool/apt-mirror
 var/spool/apt-mirror/mirror
 var/spool/apt-mirror/skel
