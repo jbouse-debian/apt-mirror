@@ -5,8 +5,7 @@ Maintainer: Brandon Holtsclaw <me@brandonholtsclaw.com>
 Uploaders: Jeremy T. Bouse <jbouse@debian.org>
 Dm-Upload-Allowed: yes
 Homepage: http://apt-mirror.sourceforge.net/
-Build-Depends: cdbs, debhelper (>= 7)
-Build-Depends-Indep: lsb-release
+Build-Depends: debhelper (>= 7.0.50~), lsb-release
 Standards-Version: 3.8.4
 Vcs-Browser: http://git.debian.org/?p=collab-maint/apt-mirror.git
 Vcs-Git: git://git.debian.org/collab-maint/apt-mirror.git
