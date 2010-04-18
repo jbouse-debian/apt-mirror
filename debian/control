@@ -2,7 +2,8 @@ Source: apt-mirror
 Section: net
 Priority: optional
 Maintainer: Brandon Holtsclaw <me@brandonholtsclaw.com>
-Uploaders: Jeremy T. Bouse <jbouse@debian.org>
+Uploaders: Jeremy T. Bouse <jbouse@debian.org>,
+           Benjamin Drung <bdrung@ubuntu.com>
 Dm-Upload-Allowed: yes
 Homepage: http://apt-mirror.sourceforge.net/
 Build-Depends: debhelper (>= 7.0.50~), lsb-release
