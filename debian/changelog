@@ -1,4 +1,4 @@
-apt-mirror (0.4.7-1) UNRELEASED; urgency=low
+apt-mirror (0.4.7-1) unstable; urgency=low
 
   [ Brandon Holtsclaw ]
   * New Upstream Release
@@ -18,7 +18,7 @@ apt-mirror (0.4.7-1) UNRELEASED; urgency=low
   * Restructure debian/postinst.
   * Set codename on compile time.
 
- -- Benjamin Drung <bdrung@ubuntu.com>  Sun, 18 Apr 2010 23:31:46 +0200
+ -- Jeremy T. Bouse <jbouse@debian.org>  Mon, 19 Apr 2010 14:48:15 -0400
 
 apt-mirror (0.4.6-0ubuntu4) lucid; urgency=low
 
