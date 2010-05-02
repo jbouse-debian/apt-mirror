@@ -1,3 +1,10 @@
+apt-mirror (0.4.8-1) unstable; urgency=low
+
+  * New Upstream version 0.4.8
+  * Fixed email addresses in debian/copyright
+
+ -- Brandon Holtsclaw <me@brandonholtsclaw.com>  Sun, 02 May 2010 18:10:53 -0500
+
 apt-mirror (0.4.7-1) unstable; urgency=low
 
   [ Brandon Holtsclaw ]
