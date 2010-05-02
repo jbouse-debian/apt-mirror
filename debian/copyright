@@ -1,16 +1,16 @@
 This package was debianized by Dmitry N. Hramtsov <hdn@nsu.ru> on
 Sat, 27 Jul 2002 12:44:33 +0700 
-and modified for Debian by Brandon Holtsclaw <brandon@imbrandon.com> on
+and modified for Debian by Brandon Holtsclaw <me@brandonholtsclaw.com> on
 Mon, 10 Jul 2006 12:44:33 -0500.
 
 It was downloaded from http://apt-mirror.sourceforge.net/
 
 Copyright 2005,2006,2007  Dmitry N. Hramstov <hdn@nsu.ru>
-Copyright 2007  Brandon Holtsclaw <brandon@imbrandon.com>
+Copyright 2007,2008,2009,2010  Brandon Holtsclaw <me@brandonholtsclaw.com>
 
 Upstream Authors:
 	Dmitry N. Hramtsov <hdn@nsu.ru>
-	Brandon Holtsclaw <brandon@imbrandon.com>
+	Brandon Holtsclaw <me@brandonholtsclaw.com>
 
 License:
 
