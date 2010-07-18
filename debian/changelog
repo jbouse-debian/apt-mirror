@@ -1,3 +1,11 @@
+apt-mirror (0.4.8-2) unstable; urgency=low
+
+  * Updated Standards-Version to 3.9.0
+  * debian/postrm: Clean-up auto-generated files on purge (Closes:
+    #455106)
+
+ -- Jeremy T. Bouse <jbouse@debian.org>  Sun, 18 Jul 2010 00:13:02 -0400
+
 apt-mirror (0.4.8-1) unstable; urgency=low
 
   * New Upstream version 0.4.8
