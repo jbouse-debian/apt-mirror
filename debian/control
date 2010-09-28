@@ -13,11 +13,7 @@ Vcs-Git: git://git.debian.org/collab-maint/apt-mirror.git
 
 Package: apt-mirror
 Architecture: all
-Depends: adduser,
-         perl-modules,
-         wget,
-         ${misc:Depends},
-         ${perl:Depends}
+Depends: adduser, perl-modules, wget, ${misc:Depends}, ${perl:Depends}
 Description: APT sources mirroring tool
  A small and efficient tool that lets you mirror a part of or
  the whole Debian GNU/Linux distribution or any other apt sources.
