@@ -1,3 +1,10 @@
+apt-mirror (0.4.8-3) unstable; urgency=low
+
+  * Bump Standards-Version to 3.9.1 (no changes required).
+  * Add a shebang line to clean.sh (LP: #649364).
+
+ -- Benjamin Drung <bdrung@ubuntu.com>  Tue, 28 Sep 2010 23:53:54 +0200
+
 apt-mirror (0.4.8-2) unstable; urgency=low
 
   * Updated Standards-Version to 3.9.0
