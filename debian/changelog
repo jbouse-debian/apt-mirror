@@ -1,3 +1,14 @@
+apt-mirror (0.4.8-4) unstable; urgency=low
+
+  [ Benjamin Drung ]
+  * Update my email address.
+
+  [ Jeremy T. Bouse ]
+  * Fix braindead build environments (closes: #634591)
+  * Update Standards-Version (no changes made)
+
+ -- Jeremy T. Bouse <jbouse@debian.org>  Sun, 24 Jul 2011 21:04:19 -0400
+
 apt-mirror (0.4.8-3) unstable; urgency=low
 
   * Bump Standards-Version to 3.9.1 (no changes required).
