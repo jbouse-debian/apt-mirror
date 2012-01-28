@@ -35,9 +35,9 @@ Bug-Debian: http://bugs.debian.org/589167
  	unlink(get_variable("var_path") . "/apt-mirror.lock");
  }
  
-@@ -295,12 +295,6 @@
- 
- die("Please explicitly specify 'defaultarch' in mirror.list") unless get_variable("defaultarch");
+@@ -296,12 +296,6 @@
+ #
+ #######################################################################################
  
 -check_lock();
 -
