@@ -1,3 +1,14 @@
+apt-mirror (0.4.8-5) unstable; urgency=low
+
+  * Improve lock file handling to avoid false "apt-mirror is already running"
+    messages. Thanks to Ivan Borzenkov <ivan1986@list.ru>
+    (Closes: #589167, LP: #424462)
+  * Create directories after config is parsed.
+    Thanks to Rob Verduijn (Closes: #619353, LP: #727011)
+  * Support armhf, kfreebsd-* and s390x arch. (Closes: #644630)
+
+ -- Benjamin Drung <bdrung@debian.org>  Sat, 28 Jan 2012 14:27:12 +0100
+
 apt-mirror (0.4.8-4) unstable; urgency=low
 
   [ Benjamin Drung ]
