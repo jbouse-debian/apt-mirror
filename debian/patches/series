@@ -3,3 +3,4 @@ additional_archs.patch
 create_dirs.patch
 lock.patch
 architecture-match.patch
+apt-mirror-https.patch
