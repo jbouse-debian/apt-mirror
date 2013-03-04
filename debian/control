@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Brandon Holtsclaw <me@brandonholtsclaw.com>
 Uploaders: Jeremy T. Bouse <jbouse@debian.org>,
            Benjamin Drung <bdrung@debian.org>
-Homepage: http://apt-mirror.sourceforge.net/
+Homepage: http://apt-mirror.github.com/
 Build-Depends: debhelper (>= 9), lsb-release
 Standards-Version: 3.9.4
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/apt-mirror.git
