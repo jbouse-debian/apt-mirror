@@ -1,3 +1,15 @@
+apt-mirror (0.4.9-1) unstable; urgency=low
+
+  * New upstream release.
+  * Use current canonical URI for VCS-* fields.
+  * Update Homepage field and debian/watch file.
+  * Drop all patches (all accepted upstream).
+  * Bump Standards-Version to 3.9.4 (no changes needed).
+  * Switch to debhelper 9.
+  * Rewrite copyright in copyright-format 1.0.
+
+ -- Benjamin Drung <bdrung@debian.org>  Mon, 04 Mar 2013 23:40:50 +0100
+
 apt-mirror (0.4.8-6) unstable; urgency=low
 
   * Fix regex problem: arm overrides armhf. Thanks to hawken. (Closes: #682395)
