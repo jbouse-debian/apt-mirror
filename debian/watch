@@ -1,2 +1,2 @@
 version=3
-https://github.com/apt-mirror/apt-mirror/tags .*/(\d[\d\.]*)\.tar\.gz
+https://github.com/apt-mirror/apt-mirror/releases/ .*/[A-Za-z-]*(\d[\d\.]*)\.tar\.(?:gz|bz2|xz)
