@@ -1,3 +1,16 @@
+apt-mirror (0.5.0-1) unstable; urgency=medium
+
+  * New upstream release.
+    - Removed restrictions when parsing deb-$arch (LP: #913837)
+    - Download all provided translation files instead of trying to download
+      translation files based on a hard-coded language list. (Closes: #725762)
+    - Fix typos (Closes: #736904, LP: #1211097).
+    - Mirror Contents-*.gz for each component. (Closes: #647301)
+  * Use Makefile for installation.
+  * Bump Standards-Version to 3.9.5.
+
+ -- Benjamin Drung <bdrung@debian.org>  Sat, 22 Feb 2014 15:42:22 +0100
+
 apt-mirror (0.4.9-1) unstable; urgency=low
 
   * New upstream release.
